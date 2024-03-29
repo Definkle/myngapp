@@ -1,5 +1,6 @@
 name: pnpm
 on:
+  - push
   - pull_request
 jobs:
   cache-and-install:
