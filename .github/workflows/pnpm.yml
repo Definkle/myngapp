@@ -36,3 +36,5 @@ jobs:
 
       - name: Install dependencies
         run: pnpm install
+      - name: Build app
+        run: pnpm exec nx run myngapp:build
